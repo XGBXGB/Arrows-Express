@@ -1,0 +1,125 @@
+
+.logi-icon {
+    float:left;
+    margin-top:4px;
+    width: 60px;
+    height:55px;
+}
+
+.nav-container {
+    padding-left: 20px;
+}
+
+.nav-title {
+    padding-left:10px;
+    font-size: 25px;
+}
+
+.nav-title-container {
+    float:left;
+    padding-left: 10px;
+}
+
+
+
+.nav-logo {
+    
+    float:left;
+}
+
+.main-reserve .container{
+    width:100%;   
+}
+
+.reserve-card-title {
+    width:100%;
+    text-align:center;
+    font-size: 2em;
+    padding-bottom:20px !important;
+    
+}
+
+.route-label {
+    font-size: 1.6em;
+}
+
+.reserve-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-reserve{
+    min-width:500px;   
+}
+
+.card-reserve .input{
+   border-bottom: 1px solid orange !important;
+  -webkit-box-shadow: 0 1px 0 0 orange !important;
+  -moz-box-shadow: 0 1px 0 0 orange !important;
+  box-shadow: 0 1px 0 0 orange !important;
+}
+
+.input-field input[type=text] {
+     border-bottom: 1px solid white;
+}
+
+.input-field label {
+     color:white;
+}
+
+.select-wrapper span.caret{
+    color:lightgray !important;
+}
+
+.select-wrapper input.select-dropdown{
+    color:white !important;
+}
+
+.trip-type {
+    margin-bottom: 20px;
+}
+
+.trip-type label.white-text::before{
+    border-color: white;
+}
+
+.trip-type label::after{
+    border-color: white !important;
+    background-color:white !important;
+}
+
+.trip-type .with-gap:checked + label.white-text::before{
+    border-color: white;
+}
+
+.input-field {
+    margin-top:0;
+    padding-top:4px !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+
+.card-title {
+    font-size:20px !important;
+}
+
+.divider {
+    margin: 15px;
+    background-color:lightgray;
+}
+
+.card-label {
+    font-size:20px;
+    font-family: roboto;
+    font-weight: 300;
+    padding-top: 10px !important;
+}
+
+.card-header {
+    font-size:20px;
+    font-family: roboto;
+    font-weight: 400;
+    padding-top: 10px !important;
+}
