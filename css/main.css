@@ -35,7 +35,7 @@
     width:100%;
     text-align:center;
     font-size: 2em;
-    padding-bottom:20px !important;
+    padding-bottom:10px !important;
     
 }
 
@@ -75,9 +75,7 @@
     color:white !important;
 }
 
-.trip-type {
-    margin-bottom: 20px;
-}
+
 
 .trip-type label.white-text::before{
     border-color: white;
@@ -122,4 +120,97 @@
     font-family: roboto;
     font-weight: 400;
     padding-top: 10px !important;
+}
+
+.nav-wrapper {
+    background-color: #109E25;
+}
+
+.departure-card{
+    padding-top:5px;
+}
+
+.departure-card .card-image img{
+    height:100%;
+    width:100%;
+    margin-top:-20%;
+}
+
+.departure-card .card-image{
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.departure-card .card-content{
+    font-size: 16px;
+    max-height: 100px;
+}
+
+
+.vehicle-num-grp{
+    float:inherit;
+    width:100%;
+    padding-bottom: 10px;
+}
+.vehicle-capacity-grp {
+    float: inherit;
+    width:100%;
+    padding-bottom: 10px;
+}
+
+.departure-card .card-title{
+    font-weight: 500;   
+}
+
+
+
+.reserve-btn {
+    margin-top:20px;
+    width:100%;
+}
+
+
+.reserve-type .container{
+    margin-left:50px;
+    margin-top:20px;
+}
+.reserve-lbl {
+    margin-top:8px;
+    font-size:1.4em
+}
+
+.reserve-type .input-field input[type=text] {
+     border-bottom: 1px solid #43A047;
+}
+
+.reserve-type .select-wrapper input.select-dropdown{
+    color:black !important;
+}
+
+.browser-default {
+    border-color:lightgray;
+}
+
+.reserve-box {
+    width:180px !important;
+}
+
+.trip-table {
+    max-height:450px;
+    overflow-y: scroll;
+}
+
+.manage-trip-table {
+    max-height:400px;
+    overflow-y: scroll;
+}
+
+.suspended-trip-table {
+    max-height:400px;
+    overflow-y: scroll;
+}
+
+
+.new-trip-div {
+    margin-top:30px;
 }
