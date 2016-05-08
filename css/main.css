@@ -4,6 +4,7 @@
     margin-top:4px;
     width: 60px;
     height:55px;
+    margin-right: 10px;
 }
 
 .nav-container {
@@ -12,7 +13,7 @@
 
 .nav-title {
     padding-left:10px;
-    font-size: 25px;
+    font-size: 25px !important;
 }
 
 .nav-title-container {
@@ -28,6 +29,10 @@
 }
 
 .main-reserve .container{
+    width:90%;   
+}
+
+.departure-card .container{
     width:100%;   
 }
 
@@ -48,8 +53,10 @@
     padding-right: 25px;
 }
 
-.card-reserve{
-    min-width:500px;   
+
+.card-reserve{  
+    min-width:440px;
+    padding:0 !important;
 }
 
 .card-reserve .input{
@@ -113,6 +120,7 @@
     font-family: roboto;
     font-weight: 300;
     padding-top: 10px !important;
+    
 }
 
 .card-header {
@@ -144,6 +152,8 @@
 .departure-card .card-content{
     font-size: 16px;
     max-height: 100px;
+    padding: 0 !important;
+    margin:0 !important;
 }
 
 
@@ -213,4 +223,109 @@
 
 .new-trip-div {
     margin-top:30px;
+}
+
+@media (max-width:360px){
+    .reserve-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .card-reserve .card-content{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    
+    .logi-icon{
+        display:none;
+    }
+    
+    .main-reserve .container{
+        width:90%;   
+    }
+}
+
+@media (max-width:360px){
+    .reserve-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .card-reserve .card-content{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    
+    .logi-icon{
+        display:none;
+    }
+    
+    .main-reserve .container{
+        width:90%;   
+    }
+}
+
+@media (max-width:992px){
+    .main-reserve .main-container{
+        min-width:760px;
+    }
+    .nav-container{
+        min-width:760px;
+    }
+    .card-label {
+    }
+    
+    .card-reserve{  
+        min-width:320px;
+    }
+    .card-reserve-col{  
+        min-width:320px;
+    }
+    .departure-card .container{
+        
+    }
+
+}
+
+@media (max-width:600px){
+    .nav-title{
+        color:yellow !important;
+    }
+    .main-reserve .main-container{
+        min-width:320px;
+    }
+    
+    .nav-container{
+        min-width:0px
+    }
+}
+
+
+
+.upcoming-trip {
+    padding-top: 15px;
+    border: solid 1px grey
+}
+
+.upcoming-btn {
+    margin-bottom: 8px;
+    height:110px;
+    background-color:transparent;
+    color:black;
+    border: 1px solid #6ADD6C;
+}
+
+.upcoming-btn:focus {
+    background-color:#29A9F7;
+}
+
+.upcoming-btn:hover {
+    background-color:#80C7F2;
+}
+
+.upcoming-btn .col{
+    text-align: left;
+    text-transform: none;
+}
+
+.upcoming-lbl{
+    height:100%;   
 }
